@@ -42,7 +42,9 @@ for player in ['magnuscarlsen', 'rpragchess']:
 pipeline.run(data, table_name='player')```
 
 
-* The above code load the chess game data from chess.com API and store in DuckDB.
+The above code load the chess game data from chess.com API and store in DuckDB.
+
+*
  
   
   
