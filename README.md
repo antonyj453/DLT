@@ -74,12 +74,12 @@ info = pipeline.run(data, table_name="countries")
 print(info)
 ```
 * Run the above code which gives the following output:
-  ```
-  Pipeline dlt_simple_pipe completed in 2.16 seconds
+```
+Pipeline dlt_simple_pipe completed in 2.16 seconds
 1 load package(s) were loaded to destination duckdb and into dataset country_data
 The duckdb destination used duckdb:////home/antony/Documents/dlt_simple_pipe.duckdb location to store data
 Load package 1698944103.788485 is LOADED and contains no failed jobs
- ```
+```
 
 
 
