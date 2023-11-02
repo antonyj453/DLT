@@ -22,7 +22,8 @@ The following installation method is for linux users(ubuntu OS):
 ## Introduction to dlt
 * We don't need to start any backend server or containers for dlt. Just need to import ```dlt``` in our python script and write a pipeline. The below code will give an idea about dlt:
 
- ```import dlt
+ ```
+import dlt
 from dlt.sources.helpers import requests
 # Create a dlt pipeline that will load
 # chess player data to the DuckDB destination
