@@ -184,7 +184,7 @@ if __name__ == "__main__":
     print(load_info)
 ```
 
-* To Request data from the WeatherAPI.com, Replace the definition of the weatherapi_resource function definition in the 
+* To Request data from the WeatherAPI.com, replace the definition of the weatherapi_resource function definition in the 
   weatherapi.py pipeline script with a call to the WeatherAPI.com API:
    
   ```
