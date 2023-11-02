@@ -4,5 +4,5 @@ dlt is an open-source library that you can add to your Python scripts to load da
 ## Table of contents
 * [dlt installation](#dlt-installation)
 ## dlt installation
-The following installation method is for linux users(ubuntu machines)
-*
+The following installation method is for linux users(ubuntu machines):
+* To install dlt we have install dlt package.
