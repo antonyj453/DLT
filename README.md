@@ -39,12 +39,13 @@ for player in ['magnuscarlsen', 'rpragchess']:
     response.raise_for_status()
     data.append(response.json())
 # Extract, normalize, and load the data
-pipeline.run(data, table_name='player')```
+pipeline.run(data, table_name='player')
+```
 
 
 The above code load the chess game data from chess.com API and store in DuckDB.
 
-*
+
  
   
   
