@@ -4,6 +4,7 @@ dlt is an open-source library that you can add to your Python scripts to load da
 ## Table of contents
 * [Installation of dlt](#Installation-of-dlt)
 * [Introduction to dlt](#Introduction-to-dlt)
+* [Features](#Features)
 ## Installation of dlt
 The following installation method is for linux users(ubuntu OS):
 * First install python. To install python use command  ``` sudo apt-get install python```
@@ -15,7 +16,8 @@ The following installation method is for linux users(ubuntu OS):
      $ mkdir /home/project
      $ cd /home/project
      $ python3.10 -m venv env
-     $ source ./env/bin/activate
+     $ source env/bin/activate
+
   ```
 * To install dlt, we have install dlt package. To install the package we have to run the command
    ``` pip install dlt```
@@ -43,7 +45,7 @@ pipeline.run(data, table_name='player')
 ```
 
 
-The above code load the chess game data from chess.com API and store in DuckDB.
+* The above code load the chess game data from chess.com API and store in DuckDB.
 
 
  
