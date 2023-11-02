@@ -9,4 +9,5 @@ The following installation method is for linux users(ubuntu OS):
 * After python is installed, next go for pip installation. To install pip use the command  ``` sudo apt-get install pip ```
 * To install dlt we have install dlt package. To install the package we have to run the command
    ``` pip install dlt```
-  Check python and pip version
+* Check python and pip version to make sure its installed properly. 
+  
