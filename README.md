@@ -122,12 +122,12 @@ load_info = pipeline.run(
 A verified source weatherapi was not found. Using a template to create a new source and pipeline with name weatherapi.
 Do you want to proceed? [Y/n]: y
 
-Your new pipeline weatherapi is ready to be customized!
-* Review and change how dlt loads your data in weatherapi.py
-* Add credentials for duckdb and other secrets in ./.dlt/secrets.toml
-* requirements.txt was created. Install it with:
-pip3 install -r requirements.txt
-* Read https://dlthub.com/docs/walkthroughs/create-a-pipeline for more information
+ Your new pipeline weatherapi is ready to be customized!
+ Review and change how dlt loads your data in weatherapi.py
+ Add credentials for duckdb and other secrets in ./.dlt/secrets.toml
+ requirements.txt was created. Install it with:
+ pip3 install -r requirements.txt
+ Read https://dlthub.com/docs/walkthroughs/create-a-pipeline for more information
  ``` 
   
  
