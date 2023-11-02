@@ -127,7 +127,9 @@ load_info = pipeline.run(
  requirements.txt was created. Install it with:
  pip3 install -r requirements.txt
  Read https://dlthub.com/docs/walkthroughs/create-a-pipeline for more information
- ``` 
+ ```
+* Run the command ```pip install -r requirements.txt```. It contains all the dependecies to be installed for weatherapi.
+* To get the weather api , we need to visit [GitHub Pages](https://pages.github.com/)
   
  
   
