@@ -107,6 +107,8 @@ load_info = pipeline.run(
 )
 
 ```
+* In the above code you can see we have used ```write_disposition="merge"```
+* Similarly we have option to get alert if there ia any change in the schema.
 
  
   
