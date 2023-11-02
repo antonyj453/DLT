@@ -297,7 +297,7 @@ if __name__ == "__main__":
     print(load_info)
 ```
 * Run ```dlt pipeline weatherapi show``` command to see that the data loaded.
-* 
+* Ouput 
 
     
     
