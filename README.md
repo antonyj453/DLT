@@ -72,7 +72,7 @@ data = [
 info = pipeline.run(data, table_name="countries")
 
 print(info)
-'''
+```
 
  
   
