@@ -10,10 +10,9 @@ The following installation method is for linux users(ubuntu OS):
 * Check python and pip version to make sure its installed properly. Use the following commands to check the version of python and pip: ```python --version``` and ```pip --version```
 * Create a virtual enviornment. Perfom the following steps:
   ```pip install virtualenv
-     python<version> -m venv <virtual-environment-name>
-     mkdir /home/project
-     cd /home/project
-     python3.10 -m venv env
-
+     $ python<version> -m venv <virtual-environment-name>
+     $ mkdir /home/project
+     $ cd /home/project
+     $ python3.10 -m venv env
  ```
   
