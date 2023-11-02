@@ -10,5 +10,5 @@ The following installation method is for linux users(ubuntu OS):
 * To install dlt we have install dlt package. To install the package we have to run the command
    ``` pip install dlt```
   
-* Check python and pip version to make sure its installed properly. 
+* Check python and pip version to make sure its installed properly. Use the following commands to check the version of python and pip: ```python --version``` and ```pip --version``` 
   
