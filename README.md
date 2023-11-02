@@ -6,6 +6,7 @@ dlt is an open-source library that you can add to your Python scripts to load da
 * [Introduction to dlt](#Introduction-to-dlt)
 * [Features](#Features)
 * [Building data pipeline with dlt](#Building-data-pipeline-with-dlt)
+* [First pipeline](#First-pipeline)
 ## Installation of dlt
 The following installation method is for linux users(ubuntu OS):
 * First install python. To install python use command  ``` sudo apt-get install python```
