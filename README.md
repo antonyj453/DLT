@@ -47,6 +47,12 @@ pipeline.run(data, table_name='player')
 
 * The above code load the chess game data from chess.com API and store in DuckDB.
 
+## Features
+*Automated maintenance - with schema inference and evolution and alerts, and with short declarative code, maintenance becomes simple.
+*User-friendly, declarative interface that removes knowledge obstacles for beginners while empowering senior professionals.
+*Consistent and verified data before loading.
+*Adapts to growing data needs in production.
+*Load only new or changed data and avoid loading old records again.
 
  
   
