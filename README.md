@@ -117,11 +117,10 @@ load_info = pipeline.run(
 * To create directory use command ```mkdir weatherapi_duckdb``` and to move to that directory use the command ```cd weatherapi_duckdb```
 * Start a dlt project with a pipeline template that loads data to DuckDB by running the command ```dlt init weatherapi duckdb```
 * By running above command we get the following output:
-  ```
-  Looking up the init scripts in https://github.com/dlt-hub/verified-sources.git...
-A verified source weatherapi was not found. Using a template to create a new source and pipeline with name weatherapi.
-Do you want to proceed? [Y/n]: y
-
+ ``` 
+ Looking up the init scripts in https://github.com/dlt-hub/verified-sources.git...
+ A verified source weatherapi was not found. Using a template to create a new source and pipeline with name weatherapi.
+ Do you want to proceed? [Y/n]: y
  Your new pipeline weatherapi is ready to be customized!
  Review and change how dlt loads your data in weatherapi.py
  Add credentials for duckdb and other secrets in ./.dlt/secrets.toml
