@@ -199,13 +199,12 @@ def weatherapi_resource(api_secret_key=dlt.secrets.value):
     yield response.json()
     ```
  * New code look like after replacing the function
-   ```
+```
    import dlt
-from dlt.sources.helpers import requests
+    from dlt.sources.helpers import requests
 
-
-@dlt.source
-def weatherapi_source(api_secret_key=dlt.secrets.value):
+  @dlt.source
+  def weatherapi_source(api_secret_key=dlt.secrets.value):
     return weatherapi_resource(api_secret_key)
 
 
@@ -245,7 +244,7 @@ if __name__ == "__main__":
 
     # pretty print the information on data that was loaded
     print(load_info)
-    ```
+```
     
     
   
