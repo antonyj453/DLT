@@ -183,12 +183,14 @@ if __name__ == "__main__":
     # pretty print the information on data that was loaded
     print(load_info)
 ```
-* Request data from the WeatherAPI.com API
-* Replace the definition of the weatherapi_resource function definition in the weatherapi.py pipeline script with a call to 
+
+* To Request data from the WeatherAPI.com API Replace the definition of the weatherapi_resource function definition in the 
+  weatherapi.py pipeline script with a call to 
   the WeatherAPI.com API:
+  
   ```
-  @dlt.resource(write_disposition="append")
-def weatherapi_resource(api_secret_key=dlt.secrets.value):
+   @dlt.resource(write_disposition="append")
+   def weatherapi_resource(api_secret_key=dlt.secrets.value):
     url = "https://api.weatherapi.com/v1/current.json"
     params = {
         "q": "NYC",
@@ -197,7 +199,7 @@ def weatherapi_resource(api_secret_key=dlt.secrets.value):
     response = requests.get(url, params=params)
     response.raise_for_status()
     yield response.json()
-    ```
+  ```
  * New code look like after replacing the function
 ```
    import dlt
