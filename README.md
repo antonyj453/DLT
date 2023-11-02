@@ -73,7 +73,7 @@ info = pipeline.run(data, table_name="countries")
 
 print(info)
 ```
-* Copy the code and name it ``` <filename>.py```
+* Copy the code and save it as ``` <filename>.py```
 * To run the script use the command ```python3 <filename>.py```
 * Run the above code which gives the following output:
 ```
@@ -82,8 +82,31 @@ Pipeline dlt_simple_pipe completed in 2.16 seconds
 The duckdb destination used duckdb:////home/antony/Documents/dlt_simple_pipe.duckdb location to store data
 Load package 1698944103.788485 is LOADED and contains no failed jobs
 ```
+* In the above example pipeline function is used to create a pipeline with the specified destination (DuckDB) and dataset name ("country_data").
+* run method--> to load the data from a list of objects into the table named "countries".
+* info method--> variable stores information about the loaded data, such as package IDs and job metadata.
+* To configure data we have--> write_dispositions,replace,append and merge.
+* The below example shows to configure how the data is loaded with ```merge``` option:
+```
+import dlt
 
+data = [{'id': 1, 'name': 'John'}]
 
+# open connection
+pipeline = dlt.pipeline(
+    destination='duckdb',
+    dataset_name='raw_data'
+)
+
+# Upsert/merge: Update old records, insert new
+load_info = pipeline.run(
+    data,
+    write_disposition="merge",
+    primary_key="id",
+    table_name="users"
+)
+
+```
 
  
   
