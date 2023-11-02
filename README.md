@@ -183,6 +183,10 @@ if __name__ == "__main__":
     # pretty print the information on data that was loaded
     print(load_info)
 ```
+* The ouput of the above code is shown below:
+  ```
+  [{'location': {'name': 'New York', 'region': 'New York', 'country': 'United States of America', 'lat': 40.71, 'lon': -74.01, 'tz_id': 'America/New_York', 'localtime_epoch': 1698911957, 'localtime': '2023-11-02 3:59'}, 'current': {'last_updated_epoch': 1698911100, 'last_updated': '2023-11-02 03:45', 'temp_c': 2.8, 'temp_f': 37.0, 'is_day': 0, 'condition': {'text': 'Clear', 'icon': '//cdn.weatherapi.com/weather/64x64/night/113.png', 'code': 1000}, 'wind_mph': 4.3, 'wind_kph': 6.8, 'wind_degree': 280, 'wind_dir': 'W', 'pressure_mb': 1028.0, 'pressure_in': 30.37, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 70, 'cloud': 0, 'feelslike_c': -1.0, 'feelslike_f': 30.1, 'vis_km': 16.0, 'vis_miles': 9.0, 'uv': 1.0, 'gust_mph': 12.6, 'gust_kph': 20.3}}]
+  ```
 
 * To Request data from the WeatherAPI.com, replace the definition of the weatherapi_resource function definition in the 
   weatherapi.py pipeline script with a call to the WeatherAPI.com API:
