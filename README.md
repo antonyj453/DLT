@@ -56,6 +56,7 @@ pipeline.run(data, table_name='player')
 * Load only new or changed data and avoid loading old records again.
   
 ## Building data pipeline with dlt
+* dlt provides extact and load process.
 
  
   
