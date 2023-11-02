@@ -6,4 +6,8 @@ dlt is an open-source library that you can add to your Python scripts to load da
 ## Installation
 The following installation method is for linux users(ubuntu OS):
 * To install dlt we have install dlt package. To install the package we have to run the command
-   npm install --save @github/clipboard-copy-element
+   ```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
