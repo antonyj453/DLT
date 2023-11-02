@@ -73,6 +73,8 @@ info = pipeline.run(data, table_name="countries")
 
 print(info)
 ```
+* Copy the code and name it ``` <filename>.py```
+* To run the script use the command ```python3 <filename>.py```
 * Run the above code which gives the following output:
 ```
 Pipeline dlt_simple_pipe completed in 2.16 seconds
