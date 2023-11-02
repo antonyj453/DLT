@@ -4,7 +4,7 @@ dlt is an open-source library that you can add to your Python scripts to load da
 ## Table of contents
 * [Installation of dlt](#Installation-of-dlt)
 * [Introduction to dlt](#Introduction-to-dlt)
-## Installation
+## Installation of dlt
 The following installation method is for linux users(ubuntu OS):
 * First install python. To install python use command  ``` sudo apt-get install python```
 * After python is installed, next go for pip installation. To install pip use the command  ``` sudo apt-get install pip ```
@@ -18,5 +18,7 @@ The following installation method is for linux users(ubuntu OS):
      $ source ./env/bin/activate
   ```
 * To install dlt we have install dlt package. To install the package we have to run the command
-   ``` pip install dlt``` 
+   ``` pip install dlt```
+## Introduction to dlt  
+  
   
