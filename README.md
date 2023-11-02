@@ -14,5 +14,5 @@ The following installation method is for linux users(ubuntu OS):
      $ mkdir /home/project
      $ cd /home/project
      $ python3.10 -m venv env
- ```
+     $ source ./env/bin/activate ```
   
