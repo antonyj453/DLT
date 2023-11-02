@@ -247,7 +247,7 @@ if __name__ == "__main__":
     print(load_info)
 ```
 * Load the data--> Remove the exit() call from the main function in weatherapi.py, so that running the python3 weatherapi.py command will now also run the pipeline.
-* After removing the exit() from the code, the new code look like:
+* After removing the exit() function from the code, the new code look like:
   
 ```
   import dlt
@@ -296,7 +296,8 @@ if __name__ == "__main__":
     # pretty print the information on data that was loaded
     print(load_info)
 ```
-  
+* Run ```dlt pipeline weatherapi show``` command to see that the data loaded.
+* 
 
     
     
