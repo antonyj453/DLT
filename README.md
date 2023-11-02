@@ -5,6 +5,7 @@ dlt is an open-source library that you can add to your Python scripts to load da
 * [Installation of dlt](#Installation-of-dlt)
 * [Introduction to dlt](#Introduction-to-dlt)
 * [Features](#Features)
+* [Building data pipeline with dlt](#Building-data-pipeline-with-dlt)
 ## Installation of dlt
 The following installation method is for linux users(ubuntu OS):
 * First install python. To install python use command  ``` sudo apt-get install python```
@@ -53,6 +54,8 @@ pipeline.run(data, table_name='player')
 * Consistent and verified data before loading.
 * Adapts to growing data needs in production.
 * Load only new or changed data and avoid loading old records again.
+  
+## Building data pipeline with dlt
 
  
   
